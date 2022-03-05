@@ -2,15 +2,7 @@ node_modules/
 cypress/
 .env
 src/
-vendor/composer
-vendor/graham-campbell
-vendor/guzzlehttp
-vendor/phpoption
-vendor/psr
-vendor/ralouphie
-vendor/symfony
-vendor/vlucas
-vendor/autoload.php
+vendor/
 bienes_raices.sql
 cypress.json
 gulpfile.js
