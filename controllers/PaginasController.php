@@ -87,12 +87,12 @@ class PaginasController {
 
             //Configurar SMTP
             $mail->isSMTP();
-            $mail->Host = 'smtp.gmail.com';
+            $mail->Host = 'smtp.mailtrap.io';
             $mail->SMTPAuth = true;
-            $mail->Username = 'pruebadecorreos243@gmail.com';
-            $mail->Password = 'PruebaDeCorreos243';
+            $mail->Username = 'c907de0e15e3bf';
+            $mail->Password = '33bddfd1de98ab';
             $mail->SMTPSecure = 'tls';
-            $mail->Port = 465;
+            $mail->Port = 2525;
 
             //Configurar el contenido del EMAIL
             $mail->setFrom('admin@bienesraices.com');
